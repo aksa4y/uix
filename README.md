@@ -1,5 +1,4 @@
-﻿[English](/README.md) | [فارسی](/README.fa_IR.md) | [العربية](/README.ar_EG.md) | [中文](/README.zh_CN.md) | [Español](/README.es_ES.md) | [Русский](/README.ru_RU.md) | [Türkçe](/README.tr_TR.md)
-
+﻿
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./media/3x-ui-dark.png">
@@ -73,31 +72,12 @@
 bash <(curl -Ls https://raw.githubusercontent.com/aksa4y/ui/master/install.sh)
 ```
 
-Чтобы установить конкретную версию, добавьте её тег (например, `v3.4.0`):
 
-```bash
-bash <(curl -Ls https://raw.githubusercontent.com/aksa4y/ui/master/install.sh) v3.4.0
-```
-
-Чтобы установить скользящую **dev**-сборку (новейший предварительный релиз по каждому коммиту из ветки `main`, а не стабильный релиз), передайте `dev-latest`:
-
-```bash
-bash <(curl -Ls https://raw.githubusercontent.com/aksa4y/ui/master/install.sh) dev-latest
-```
 
 Во время установки генерируются случайные имя пользователя, пароль и путь доступа. После установки выполните `x-ui`, чтобы открыть меню управления, где можно запускать/останавливать сервис, просматривать или сбрасывать учётные данные для входа, управлять SSL-сертификатами и многое другое.
 
 Полную документацию смотрите в [вики проекта](https://github.com/aksa4y/ui/wiki).
 
-### Автоматическая установка
-
-Установщик также работает в **неинтерактивном** режиме для cloud-init.
-Задайте `XUI_NONINTERACTIVE=1` (или передайте по конвейеру без TTY), и установка пройдёт от начала до конца
-без единого запроса: будут сгенерированы случайные учётные данные и записаны в
-`/etc/x-ui/install-result.env`. Смотрите [`deploy/`](deploy/) для:
-
-- [Cloud-init user-data](deploy/cloud-init/) — автоматическая установка в любом облаке (Hetzner/AWS/DO/Vultr/GCP/Azure/Oracle)
-- [Заметки по Hetzner Cloud](deploy/marketplace/hetzner/) — развёртывание на Hetzner на базе cloud-init
 
 ## Поддерживаемые платформы
 
@@ -193,14 +173,6 @@ English · فارسی · العربية · 中文（简体） · 中文（繁體
 
 **Если этот проект полезен для вас, вы можете поставить ему**:star2:
 
-<a href="https://www.buymeacoffee.com/aksa4y" target="_blank">
-<img src="./media/default-yellow.png" alt="Buy Me A Coffee" style="height: 70px !important;width: 277px !important;" >
-</a>
-
-</br>
-<a href="https://nowpayments.io/donation/hsanaei" target="_blank" rel="noreferrer noopener">
-   <img src="./media/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
-</a>
 
 ## Звезды с течением времени
 
