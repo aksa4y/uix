@@ -68,7 +68,7 @@
 ## Быстрый старт
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/aksa4y/ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/aksa4y/uix/master/install.sh)
 ```
 
 
