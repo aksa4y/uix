@@ -13,7 +13,6 @@
   <a href="https://github.com/aksa4y/ui/releases/latest"><img src="https://img.shields.io/github/downloads/aksa4y/3x-ui/total.svg" alt="Downloads"></a>
   <a href="https://www.gnu.org/licenses/gpl-3.0.en.html"><img src="https://img.shields.io/badge/license-GPL%20V3-blue.svg?longCache=true" alt="License"></a>
   <a href="https://pkg.go.dev/github.com/aksa4y/ui/v3"><img src="https://pkg.go.dev/badge/github.com/aksa4y/ui/v3.svg" alt="Go Reference"></a>
-  <a href="https://goreportcard.com/report/github.com/aksa4y/ui/v3"><img src="https://goreportcard.com/badge/github.com/aksa4y/ui/v3" alt="Go Report Card"></a>
 </p>
 
 **3X-UI** — продвинутая веб-панель управления с открытым исходным кодом для управления серверами [Xray-core](https://github.com/XTLS/Xray-core). Она предоставляет аккуратный многоязычный интерфейс для развёртывания, настройки и мониторинга широкого спектра протоколов прокси и VPN — от одного VPS до развёртываний с несколькими узлами.
@@ -144,24 +143,15 @@ docker run -d --cap-add=NET_ADMIN --cap-add=NET_RAW ... ghcr.io/aksa4y/ui
 | `XUI_TUNNEL_HEALTH_FAILURES` | Число последовательных сбоев до запуска перезапуска | `3` |
 | `XUI_TUNNEL_HEALTH_COOLDOWN` | Минимальная задержка между последовательными перезапусками | `5m` |
 
-## Поддерживаемые языки
 
-Интерфейс панели доступен на 13 языках:
 
-English · فارسی · العربية · 中文（简体） · 中文（繁體） · Español · Русский · Українська · Türkçe · Tiếng Việt · 日本語 · Bahasa Indonesia · Português (Brasil)
+
 
 ## Участие в разработке
 
 Вклад приветствуется. Пожалуйста, прочитайте [руководство по участию](/CONTRIBUTING.md), прежде чем открывать issue или pull request.
 
-## Особая благодарность
 
-- [alireza0](https://github.com/alireza0/)
-
-## Благодарности
-
-- [Iran v2ray rules](https://github.com/chocolate4u/Iran-v2ray-rules) (Лицензия: **GPL-3.0**): _Улучшенные правила маршрутизации для v2ray/xray и v2ray/xray-clients со встроенными иранскими доменами и фокусом на безопасность и блокировку рекламы._
-- [Russia v2ray rules](https://github.com/runetfreedom/russia-v2ray-rules-dat) (Лицензия: **GPL-3.0**): _Этот репозиторий содержит автоматически обновляемые правила маршрутизации V2Ray на основе данных о заблокированных доменах и адресах в России._
 
 ## Инструменты сообщества
 
