@@ -150,14 +150,6 @@ docker run -d --cap-add=NET_ADMIN --cap-add=NET_RAW ... ghcr.io/aksa4y/ui
 
 Вклад приветствуется. 
 
-
-
-## Инструменты сообщества
-
-Инструменты и интеграции, созданные сообществом вокруг 3x-ui.
-
-- [terraform-provider-3x-ui](https://github.com/batonogov/terraform-provider-threexui) (Лицензия: **MIT**): _Управление входящими, клиентами, настройками панели и конфигурацией Xray через код с помощью Terraform / OpenTofu._
-
 ## Поддержка проекта
 
 **Если этот проект полезен для вас, вы можете поставить ему**:star2:
@@ -165,5 +157,4 @@ docker run -d --cap-add=NET_ADMIN --cap-add=NET_RAW ... ghcr.io/aksa4y/ui
 
 ## Звезды с течением времени
 
-[![Stargazers over time](https://starchart.cc/aksa4y/3x-ui.svg?variant=adaptive)](https://starchart.cc/aksa4y/3x-ui)
  
